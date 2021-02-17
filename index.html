@@ -1,17 +1,19 @@
 <!doctype html>
-<html lang="Default">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="entreprise web design, webdesigner, stratégie digitale, site sur mesure, seo, conception site web, site internet, agence design, Lyon, Rhône-alpes">
-    <meta name="description" content="">
+    <meta name="description" content="La chouette agence est une entreprise web basée à Lyon. Nous construisons pour vous
+	des sites internet modernes et dynamiques.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="robots" content="index, follow">
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
-    
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="./css/bootstrap.mini.css"> --> 
+	<link rel="stylesheet" type="text/css" href="style.mini.css">
+	<link rel="stylesheet preload" href="./css/font-awesome.mini.css" as="font" crossorigin="anonymous">
+	<link rel="stylesheet preload" href="./css/et-line.mini.css" as="font" crossorigin="anonymous"> 
 
     <title>La chouette agence - Entreprise webdesign | Lyon</title>
 
@@ -26,12 +28,16 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0" role="banner">
+<div class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 
-		<nav class="navbar row" role="main navigation">
+		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html" title="La chouette agance - entreprise webdesign"><img src="img/la-chouette-agence.png" alt="logo La chouette agence" height="40" /></a>
+				<a class="navbar-brand" href="index.html" title="La chouette agance - entreprise webdesign">
+					<picture>
+						<source srcset="img/la-chouette-agence.webp" type="image/webp">
+						<img src="img/la-chouette-agence.png" alt="logo La chouette agence" width="214" height="50"/>
+					</picture></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -50,11 +56,14 @@
 
 <!-- bloc-1-presentation -->
 <div id="main" role="main">
-	<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero" role="region">
+	<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
 		<div class="container bloc-lg">
 			<div class="row tight-width-whitespace">
 				<div class="col-sm-12">
-					<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="Logo La chouette agence" />
+					<picture>
+						<source srcset="img/logo.webp" type="image/webp">
+							<img src="img/logo.png" class="center-block image-resize-mode" alt="Logo La chouette agence" width="214" height="50" />
+					</picture>
 					<h1 class="text-center hero-bloc-text tc-white ">
 						La chouette agence - Entreprise webdesign - Lyon
 					</h1>
@@ -68,7 +77,7 @@
 <!-- bloc-1-presentation END -->
 
 <!-- bloc-2-services -->
-	<div class="bloc bgc-white l-bloc" id="bloc-2-services" role=”region”>
+	<div class="bloc bgc-white l-bloc" id="bloc-2-services">
 		<div class="container bloc-md">
 			<div class="row">
 				<div class="col-sm-12 text-center">
@@ -116,7 +125,6 @@
 						<p>La chouette agence est une excellente agence web ! Les web designers ont réussi à capturer l'essence de notre entreprise et à l'intégrer à notre site. Cela nous a aidé à doubler nos ventes en ligne à Lyon.</p>
 						<cite>Maxime Guibard, PDG de À vos fourchettes</cite>
 					</blockquote>
-					</p>
 				</div>
 			</div>
 		</div>
@@ -124,7 +132,7 @@
 <!-- bloc-2-services END -->
 
 <!-- bloc-3-what-i-do -->
-	<div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-3-what-i-do" role=”region”>
+	<div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-3-what-i-do">
 		<div class="container bloc-lg">
 			<div class="row tight-width-whitespace black-background">
 				<div class="col-sm-12">
@@ -141,7 +149,7 @@
 <!-- bloc-3-what-i-do END -->
 
 <!-- bloc-4-portfolio -->
-	<div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio" role=”region”>
+	<div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
 		<div class="container bloc-lg">
 			<div class="row">
 				<div class="col-sm-12 text-center">
@@ -150,7 +158,11 @@
 			</div>
 			<div class="row tight-width-whitespace portfolio-row">
 				<div class="col-sm-6">
-					<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb" title="agrandir"><img src="img/1.jpg" alt="Pile de livre" class="img-responsive portfolio-thumb" /></a>
+					<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb" title="agrandir">
+						<picture>
+							<source srcset="img/1.webp" type="image/webp">
+							<img src="img/1.jpg" alt="Pile de livre" class="img-responsive portfolio-thumb" loading="lazy"/>
+						</picture></a>
 					<h3 class="mg-md text-center">
 						Refonte d'un site web pour un journal local
 					</h3>
@@ -159,7 +171,11 @@
 					</p>
 				</div>
 				<div class="col-sm-6">
-					<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb" title="agrandir"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="Une photographe" /></a>
+					<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb" title="agrandir">
+						<picture>
+							<source srcset="img/2.webp" type="image/webp">
+							<img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="Une photographe" loading="lazy"/>
+						</picture></a>
 					<h3 class="mg-md text-center">
 						Création d'un site web pour photographes
 					</h3>
@@ -170,7 +186,11 @@
 			</div>
 			<div class="row tight-width-whitespace portfolio-row">
 				<div class="col-sm-6">
-					<a href="#" data-lightbox="img/3.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb" title="agrandir"><img src="img/3.jpg" class="img-responsive portfolio-thumb" alt="Equipement reportage"/></a>
+					<a href="#" data-lightbox="img/3.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb" title="agrandir">
+						<picture>
+							<source srcset="img/3.webp" type="image/webp">
+							<img src="img/3.jpg" class="img-responsive portfolio-thumb" alt="Equipement reportage" loading="lazy"/>
+						</picture></a>
 					<h3 class="mg-md text-center">
 						Création d'un site internet pour un voyageur
 					</h3>
@@ -179,7 +199,11 @@
 					</p>
 				</div>
 				<div class="col-sm-6">
-					<a href="#" data-lightbox="img/4.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb" title="agrandir"><img src="img/4.jpg" class="img-responsive portfolio-thumb" alt="Bureau avec un ordianteur" /></a>
+					<a href="#" data-lightbox="img/4.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb" title="agrandir">
+						<picture>
+							<source srcset="img/4.webp" type="image/webp">
+								<img src="img/4.jpg" class="img-responsive portfolio-thumb" alt="Bureau avec un ordianteur" loading="lazy"/>
+						</picture></a>
 					<h3 class="mg-md text-center">
 						Conception d'un site pour une agence de mariage
 					</h3>
@@ -193,7 +217,7 @@
 <!-- bloc-4-portfolio END -->
 
 <!-- bloc-5-cta -->
-	<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta" role=”region”>
+	<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 		<div class="container bloc-lg">
 			<div class="row tight-width-whitespace black-background">
 				<h2 class="mg-md text-center tc-white">
@@ -209,7 +233,7 @@
 <!-- bloc-5-cta END -->
 
 <!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8" role="contentinfo">
+<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
@@ -219,39 +243,42 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://twitter.com/home" target="_blank" title="Twitter"><span class="fa fa-twitter icon-md">Twitter</span></a>
+							<a class="social" href="https://twitter.com/home" target="_blank" rel="noreferrer" title="Twitter"><span class="fa fa-twitter icon-md">Twitter</span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://www.facebook.com/" target="_blank" title="Facebook"><span class="fa fa-facebook icon-md">Facebook</span></a>
+							<a class="social" href="https://www.facebook.com/" target="_blank" rel="noreferrer" title="Facebook"><span class="fa fa-facebook icon-md">Facebook</span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://dribbble.com/" target="_blank" title="Driddle"><span class="fa fa-dribbble icon-md">Driddle</span> </a>
+							<a class="social" href="https://dribbble.com/" target="_blank" rel="noreferrer" title="Driddle"><span class="fa fa-dribbble icon-md">Driddle</span> </a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://www.instagram.com/" target="_blank" title="Instagram"><span class="fa fa-instagram icon-md">Instagram</span> </a>
+							<a class="social" href="https://www.instagram.com/" target="_blank" rel="noreferrer" title="Instagram"><span class="fa fa-instagram icon-md">Instagram</span> </a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+</footer>
 <!-- Footer - bloc-8 END -->
 
 </div>
 <!-- Principal conteneur END -->
-    
-<script src="./js/jquery-2.1.0.js" defer></script>
-<script src="./js/bootstrap.js" defer></script>
-<script src="./js/blocs.js" defer></script>
-<script src="./js/jquery.touchSwipe.js" defer></script>
-<script src="./js/gmaps.js" defer></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js" integrity="sha512-qp27nuUylUgwBZJHsmm3W7klwuM5gke4prTvPok3X5zi50y3Mo8cgpeXegWWrdfuXyF2UdLWK/WCb5Mv7CKHcA==" crossorigin="anonymous" defer></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" defer></script>
+
+<!--<script src="./js/jquery-2.1.0.mini.js" defer></script>
+<script src="./js/bootstrap.mini.js" defer></script>-->
+<script src="./js/blocs.mini.js" defer></script> 
+<script src="./js/jquery.touchSwipe.mini.js" defer></script> 
+
 
 </body>
 </html>

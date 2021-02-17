@@ -31,7 +31,7 @@ cite {
     margin: 0 auto;
     width:100%;
     padding: 0 30px;
-}
+} 
 
 a:hover {
     cursor: pointer;
@@ -110,16 +110,12 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
 .b-parallax {
     background-attachment: fixed;
-}
-
-.d-bloc {
-    /*color: rgba(255, 255, 255, .7);*/
 }
 
 .d-bloc button:hover {
@@ -222,6 +218,11 @@ a:hover {
     color: rgba(0, 0, 0, .7);
 }
 
+.image-resize-mode {
+    width: 100px;
+    height: 100px;
+}
+
 .l-bloc .icon-round,
 .l-bloc .icon-square,
 .l-bloc .icon-rounded,
@@ -321,7 +322,8 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    height: 40px;
+    width:250px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -718,6 +720,10 @@ p {
     font-weight: 700;
 }
 
+.fa {
+    height: 50px;
+}
+
 .social {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -756,7 +762,7 @@ h4 {
 }
 
 .white {
-    color: #ffffff;
+    color: #ffffff!important;
     font-weight: bold;
 }
 
@@ -774,7 +780,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(65, 62, 57, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 20px 15px;
 }
 
@@ -843,9 +849,6 @@ h4 {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
-.bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
-}
 
 @media (max-width: 1024px) {
     .bloc {
@@ -870,13 +873,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -894,10 +897,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -906,8 +905,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 

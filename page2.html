@@ -1,18 +1,20 @@
 <!doctype html>
-<html lang="Default">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="contact, Rhône-alpes, Lyon, entreprise web design, webdesigner, stratégie digitale, site sur mesure, seo, conception site web, site internet, agence design">
-    <meta name="description" content="">
+    <meta name="description" content="Contacter La chouette agence est une entreprise web basée à Lyon. Nous construisons pour vous
+	des sites internet modernes et dynamiques.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="robots" content="index, follow">
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
-	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="./css/bootstrap.mini.css"> -->
+	<link rel="stylesheet" type="text/css" href="style.mini.css">
+	<link rel="stylesheet preload" href="./css/font-awesome.mini.css" as="font" crossorigin="anonymous">
+	<link rel="stylesheet preload" href="./css/et-line.mini.css" as="font" crossorigin="anonymous"> 
+
     <title>Contact - La chouette agence</title>
 
     
@@ -26,11 +28,15 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0" role=”banner”>
+<div class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
-		<nav class="navbar row" role="navigation">
+		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" /></a>
+				<a class="navbar-brand" href="index.html">
+					<picture>
+						<source srcset="img/la-chouette-agence.webp" type="image/webp">
+						<img src="img/la-chouette-agence.png" alt="logo La chouette agence" width="214" height="50"/>
+					</picture></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -48,7 +54,7 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-6 -->
-<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6" role=”region”>
+<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
@@ -66,25 +72,25 @@
 <!-- bloc-6 END -->
 
 <!-- bloc-7 -->
-<div class="bloc bgc-white l-bloc" id="bloc-7" role=”form”>
+<div class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
 		<div class="row center">
 			<div class="col-sm-6 center">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate="">
 					<div class="form-group">
 						<label for="name">Nom</label>
 						<input id="name" class="form-control" type="text" placeholder="Nom" title="Nom" required aria-invalid="false">
 					</div>
 					<div class="form-group">
 						<label for="email">Adresse mail</label>
-						<input id="email" type="email" class="form-control" placeholder="nom@example.com" title="Adresse mail" required aria-invalid="false">
+						<input id="email" type="email" class="form-control" placeholder="nom@example.com" title="nom@example.com" required aria-invalid="false">
 					</div>
 					<div class="form-group">
 						<label for="how">Comment nous avez-vous connu ?</label>
 						<textarea id="how" class="form-control" placeholder="Écrivez votre message ici" title="Comment nous avez-vous connu ?" required aria-invalid="false"></textarea>
 					</div>
 					<div class="form-group">
-						<label for="project">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
+						<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
 						<textarea id="message" class="form-control" rows="4" cols="50" placeholder="Écrivez votre message ici" title="Brief de votre projet" required aria-invalid="false"></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" title="Envoyer">
@@ -108,47 +114,50 @@
 
 
 <!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8" role=”contentinfo”>
+<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center white">
+				<p class="text-center black">
 					La chouette agence - Agence web basée à Lyon.<br>
 				</p>
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md">Twitter</span></a>
+							<a class="social" href="https://twitter.com/home" target="_blank" rel="noreferrer" title="Twitter"><span class="fa fa-twitter icon-md">Twitter</span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md">facebook</span></a>
+							<a class="social" href="https://www.facebook.com/" target="_blank" rel="noreferrer" title="Facebook"><span class="fa fa-facebook icon-md">facebook</span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md">dribbble</span></a>
+							<a class="social" href="https://dribbble.com/" target="_blank" rel="noreferrer" title="Driddle"><span class="fa fa-dribbble icon-md">dribbble</span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md">instagram</span></a>
+							<a class="social" href="https://www.instagram.com/" target="_blank" rel="noreferrer" title="Instagram"><span class="fa fa-instagram icon-md">instagram</span></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+</footer>
 <!-- Footer - bloc-8 END -->
 
 </div>
 <!-- Principal conteneur END -->
     
-<script src="./js/jquery-2.1.0.js" defer></script>
-<script src="./js/bootstrap.js" defer></script>
-<script src="./js/blocs.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js" integrity="sha512-qp27nuUylUgwBZJHsmm3W7klwuM5gke4prTvPok3X5zi50y3Mo8cgpeXegWWrdfuXyF2UdLWK/WCb5Mv7CKHcA==" crossorigin="anonymous" defer></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" defer></script>
+
+<!-- <script src="./js/jquery-2.1.0.mini.js" defer></script>
+<script src="./js/bootstrap.mini.js" defer></script> -->
+<script src="./js/blocs.mini.js" defer></script>
 <script src="./js/jqBootstrapValidation.js" defer></script>
 <script src="./js/formHandler.js" defer></script>
 
