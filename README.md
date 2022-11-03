@@ -1,8 +1,10 @@
 ## La chouette agence
-![](img/logo_webp)
+[](img/logo_webp)
 
 ***
 ![](img/la-chouette-agence.webp)
+
+![](img/la-chouette-agence-banniere.jpg)
 
 ### 🛠️ &nbsp; Installation
 * Clone the following repository [GitHub](https://github.com/ben3211/La-Chouette-Agance.git).
