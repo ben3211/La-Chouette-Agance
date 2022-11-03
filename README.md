@@ -2,12 +2,6 @@
 
 ![](img/la-chouette-agence-banniere.jpg)
 
-### 🛠️ &nbsp; Installation
-* Clone the following repository [GitHub](https://github.com/ben3211/La-Chouette-Agance.git).
-```terminal
-git clone https://github.com/ben3211/La-Chouette-Agance.git
-```
-
 ![](img/ohmyfood_banner.png)
 
 ***
@@ -28,4 +22,7 @@ git clone https://github.com/ben3211/La-Chouette-Agance.git
 * Comparaison des résultats.
 
 ### 🛠️ &nbsp; Installation
-* Cloner le repository suivant [GitHub](https://github.com/ben3211/La-Chouette-Agance.git).
+* Clone the following repository [GitHub](https://github.com/ben3211/La-Chouette-Agance.git).
+```terminal
+git clone https://github.com/ben3211/La-Chouette-Agance.git
+```
