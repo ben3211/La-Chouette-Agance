@@ -13,7 +13,6 @@ git clone https://github.com/ben3211/La-Chouette-Agance.git
 ![](img/ohmyfood_banner.png)
 
 ***
-:fr:  
 ### 🔍 Compétences évaluées
 
 * Réaliser une recherche des bonnes pratiques en développement web
