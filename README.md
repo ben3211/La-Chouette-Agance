@@ -1,7 +1,5 @@
 ## La chouette agence
 
-***
-
 ![](img/la-chouette-agence-banniere.jpg)
 
 ### 🛠️ &nbsp; Installation
